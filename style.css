@@ -1,0 +1,152 @@
+:root{
+    --primary-color:#008000;
+}
+*{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #eaeaea;
+    
+}
+p{
+    font-size: 1.1rem;
+    font-weight:600;
+}
+.margin-top{
+    margin-top: 1rem;
+}
+.margin-bottom{
+    margin-bottom: 1rem;
+}
+.heading-lg{
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.heading{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.underline{
+    height: 5px;
+    background: pink;
+    margin-bottom: 1rem;
+
+}
+.input-font{
+    font-size:.8rem;
+}
+
+.border{
+    border:0;
+
+}
+#opennewtextarea {
+    display: none;
+  }
+
+form{
+    background: #FFFFF0;
+    margin: 100px auto;
+    width: 70%;
+    padding: 15px 40px 40px 40px;
+}
+
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width:90%;
+    font-size: 20px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+  
+}
+.input-wrapper span{
+    color:red;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.index-btn-wrapper{
+    display:flex;
+}
+.index-btn{
+    margin: 20px 15px 0 0;
+    background: #04AA6D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.index-btn:hover{
+    opacity: 0.8;
+}
+.center{
+    text-align:center;
+}
+.step{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background:green;
+    color:white;
+    border-radius:50%;
+    line-height: 30px;
+    margin: 0 2px;
+    opacity: 0.25;
+}
+
+textarea{
+    width:90%;
+}
+textarea::placeholder{
+    font-size: 1.2rem;
+    padding-left: .7rem;
+}
+.radio-wrapper{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    
+}
+.radio-wrapper .radio{
+    display:flex;
+    align-items: center;
+    gap:3px;
+}
+.confirm-check input{
+    width: unset;
+}
+.confirm-check{
+    display:flex;
+    align-items:center;
+    gap: 5px;
+}
+.opencheck p{
+    display:inline-block;
+    
+}
+.opencheck input{
+    width:unset;
+}
+.confirm-check p{
+    display:inline-block;
+}
+.newinputboxes{
+    height: 0;
+  overflow: hidden;
+}
+.newinputboxes-show{
+    height: 7rem;
+}
